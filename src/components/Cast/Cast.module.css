@@ -1,0 +1,24 @@
+.photoWrapper {
+  margin: 0 auto;
+
+  height: 120px;
+  width: auto;
+  max-width: 80px;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.actorName {
+  font-weight: 700;
+  margin: 10px 0 5px;
+  text-align: center;
+}
+
+.character {
+  margin: 5px 0;
+  text-align: center;
+}

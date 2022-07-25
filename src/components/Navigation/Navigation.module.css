@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  font-size: 20px;
+}
+
+.navItem {
+  list-style: none;
+  text-decoration: none;
+}
+
+.navItem:not(:last-child) {
+  margin-right: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.activeLink {
+  text-decoration: underline;;
+  color: var(--active-nav-item);
+}
